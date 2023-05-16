@@ -63,8 +63,11 @@ map <leader>d <Action>(Debug)
 map <F11> <Action>(ToggleFullScreen)
 map <leader>c <Action>(Stop)
 map <leader>z <Action>(ToggleDistractionFreeMode)
-map <leader>b <Action>(ToggleLineBreakpoint)
 map <leader>q <Action>(HideActiveWindow)
+
+map <leader>j <C-;>
+map <leader>w <leader><leader>w
+map <leader>b <leader><leader>b
 
 map <Space>r <Action>(RenameElement)
 map <Space>d <Action>(SelectInProjectView)

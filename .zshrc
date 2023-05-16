@@ -209,8 +209,6 @@ export JAVA_OPTS="$JAVA_OPTS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=7890"
 # for neovim
 export PATH="$PATH:$HOME/neovim/bin"
 
-# for clion
-export PATH="$PATH:/home/ffmeng/CLion-2022.3.1/clion-2022.3.1/bin"
 # for flatpak
 # export PATH="$PATH:$XDG_DATA_DIRS"
 
