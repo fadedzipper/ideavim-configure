@@ -1,5 +1,339 @@
 {
+    "editor.fontSize": 13,
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "C-k"
+            ],
+            "after": [
+                "<delete>"
+            ]
+        },
+        {
+            "before": [
+                "C-e"
+            ],
+            "after": [
+                "<esc>",
+                "$",
+                "a"
+            ]
+        },
+        {
+            "before": [
+                "C-a"
+            ],
+            "after": [
+                "<esc>",
+                "^",
+                "i"
+            ]
+        },
+        {
+            "before": [
+                "C-l"
+            ],
+            "after": [
+                "right"
+            ]
+        },
+        // {
+        //     "before": [
+        //         "k",
+        //         "k"
+        //     ],
+        //     "after": [
+        //         "<delete>",
+        //         "<esc>",
+        //         "A",
+        //         ")",
+        //         "<esc>"
+        //     ]
+        // },
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        }
+        //   {
+        //     "before":["C-f"],
+        //     "after":["cursorRight"]
+        //  },
+    ],
+    // "editor.formatOnSave": true,
+    "verilog-formatter.istyle.style": "K&R",
+    "vim.easymotion": true,
+    "editor.bracketPairColorization.enabled": true,
+    // enable tab completion for snippet
+    "editor.tabCompletion": "onlySnippets",
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": " ",
+    // "vim.handleKeys": {
+    //   "<C-f>": false
+    // },
+    // ...
+    "verilog.linting.linter": "verilator",
+    "tabnine.disableFileRegex": [
+        "[.]v$"
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.view.search"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                ":q!"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "R"
+            ],
+            "after": [
+                "g",
+                "t"
+            ]
+        },
+        {
+            "before": [
+                "E"
+            ],
+            "after": [
+                "g",
+                "T"
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "j"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "i"
+            ],
+            "commands": [
+                "editor.action.format"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.saveAll"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "after": [
+                "^"
+            ]
+        }
+    ],
+    "metals.serverProperties": [
+        "-Dhttps.proxyHost=127.0.0.1",
+        "-Dhttps.proxyPort=7890"
+    ],
+    "sync.gist": "2b7d97887eefac564ec672f03b1e141d",
+    "explorer.confirmDelete": false,
+    "grunt.autoDetect": "on",
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "remote.SSH.showLoginTerminal": true,
+    "cmake.configureOnOpen": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "http.proxySupport": "off",
+    "python.pythonPath": "/bin/python",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "telemetry.telemetryLevel": "off",
+    "go.toolsManagement.autoUpdate": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.renderWhitespace": "none",
+    "tabnine.experimentalAutoImports": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "rust-analyzer.cargo.allFeatures": true,
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font'",
+    "Notes.notesLocation": "/home/ffmeng/Desktop",
+    "blockman.n01LineHeight": 0,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.inlayHints.enabled": true,
+    "editor.guides.bracketPairs": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "terminal.integrated.inheritEnv": false,
+    "files.associations": {
+        "*.v": "verilog"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Chromium, IndentWidth: 4, TabWidth: 4, UseTab: Never, ColumnLimit: 120}",
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
     "files.watcherExclude": {
-        "**/target": true
-    }
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "metals.bloopJvmProperties": [
+        "-Dhttps_proxyHost=127.0.0.1 -Dhttps_proxyPort=7890"
+    ],
+    "workbench.editorAssociations": {
+        "*.img": "hexEditor.hexedit"
+    },
+    "window.zoomLevel": 1,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.inlayHints.referenceOperator.enabled": true,
+    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "settingsSync.ignoredSettings": [
+        "editor.fontFamily",
+        "-C_Cpp.default.compileCommands"
+    ],
+    "git.enableSmartCommit": true,
+    "clangd.path": "/home/ffmeng/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/15.0.6/clangd_15.0.6/bin/clangd",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "Lua.telemetry.enable": true,
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": false,
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120",
+        "--experimental"
+    ],
+    "[verilog]": {
+        "editor.defaultFormatter": "mshr-h.veriloghdl"
+    },
+    "makefile.compileCommandsPath": "build/compile_commands.json",
+    "remote.SSH.remotePlatform": {
+        "43.138.191.217": "linux"
+    },
+    "C_Cpp.default.compileCommands": "build/compile_commands.json",
+    "editor.minimap.enabled": false,
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build/X86"
+    ],
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "errorLens.excludeBySource": [
+        "clang(-Wrange-loop-construct)"
+    ],
+    "lldb.suppressUpdateNotifications": true,
 }
