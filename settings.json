@@ -37,19 +37,6 @@
                 "right"
             ]
         },
-        // {
-        //     "before": [
-        //         "k",
-        //         "k"
-        //     ],
-        //     "after": [
-        //         "<delete>",
-        //         "<esc>",
-        //         "A",
-        //         ")",
-        //         "<esc>"
-        //     ]
-        // },
         {
             "before": [
                 "j",
@@ -59,26 +46,16 @@
                 "<esc>"
             ]
         }
-        //   {
-        //     "before":["C-f"],
-        //     "after":["cursorRight"]
-        //  },
     ],
-    // "editor.formatOnSave": true,
     "verilog-formatter.istyle.style": "K&R",
     "vim.easymotion": true,
     "editor.bracketPairColorization.enabled": true,
-    // enable tab completion for snippet
     "editor.tabCompletion": "onlySnippets",
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
     "vim.leader": " ",
-    // "vim.handleKeys": {
-    //   "<C-f>": false
-    // },
-    // ...
     "verilog.linting.linter": "verilator",
     "tabnine.disableFileRegex": [
         "[.]v$"
@@ -335,5 +312,4 @@
     "errorLens.excludeBySource": [
         "clang(-Wrange-loop-construct)"
     ],
-    "lldb.suppressUpdateNotifications": true,
 }
