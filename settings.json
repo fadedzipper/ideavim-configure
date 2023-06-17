@@ -81,6 +81,15 @@
         {
             "before": [
                 "<leader>",
+                "e"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "q"
             ],
             "commands": [
@@ -162,7 +171,7 @@
         {
             "before": [
                 "<leader>",
-                "e"
+                "d"
             ],
             "commands": [
                 "workbench.view.explorer"
