@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -63,7 +63,79 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "<leader>",
+                "<space>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.saveFiles"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "r"
+            ],
+            "commands": [
+                "editor.action.changeAll"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "d"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "e"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "i"
+            ],
+            "commands": [
+                "editor.action.format"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
                 "f"
             ],
             "commands": [
@@ -76,24 +148,6 @@
             ],
             "commands": [
                 ":nohl"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "e"
-            ],
-            "commands": [
-                "editor.action.goToReferences"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "q"
-            ],
-            "commands": [
-                ":q!"
             ]
         },
         {
@@ -141,42 +195,6 @@
                 "s"
             ]
         },
-        {
-            "before": [
-                "<leader>",
-                "i"
-            ],
-            "commands": [
-                "editor.action.format"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "s"
-            ],
-            "commands": [
-                "workbench.action.files.save"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "w"
-            ],
-            "commands": [
-                "workbench.action.files.saveAll"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "d"
-            ],
-            "commands": [
-                "workbench.view.explorer"
-            ]
-        }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
@@ -196,10 +214,6 @@
             ]
         }
     ],
-    "metals.serverProperties": [
-        "-Dhttps.proxyHost=127.0.0.1",
-        "-Dhttps.proxyPort=7890"
-    ],
     "sync.gist": "2b7d97887eefac564ec672f03b1e141d",
     "explorer.confirmDelete": false,
     "grunt.autoDetect": "on",
@@ -216,7 +230,6 @@
     "remote.SSH.showLoginTerminal": true,
     "cmake.configureOnOpen": true,
     "bracket-pair-colorizer-2.depreciation-notice": false,
-    "http.proxySupport": "off",
     "python.pythonPath": "/bin/python",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "telemetry.telemetryLevel": "off",
@@ -261,9 +274,6 @@
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "editor.inlineSuggest.enabled": true,
     "explorer.confirmDragAndDrop": false,
-    "metals.bloopJvmProperties": [
-        "-Dhttps_proxyHost=127.0.0.1 -Dhttps_proxyPort=7890"
-    ],
     "workbench.editorAssociations": {
         "*.img": "hexEditor.hexedit"
     },
@@ -314,11 +324,27 @@
     "C_Cpp.default.compileCommands": "build/compile_commands.json",
     "editor.minimap.enabled": false,
     "clangd.arguments": [
-        "--compile-commands-dir=${workspaceFolder}/build/X86"
+        "--compile-commands-dir=${workspaceFolder}/build/X86",
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--compile-commands-dir=${workspaceFolder}",
     ],
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
     "errorLens.excludeBySource": [
         "clang(-Wrange-loop-construct)"
+    ],
+    "http.proxy": "http://127.0.0.1:7890",
+    "settingsSync.keybindingsPerPlatform": false,
+    "extensions.ignoreRecommendations": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
     ],
 }

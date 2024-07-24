@@ -143,15 +143,13 @@ fi
 alias s='ls'
 alias p='proxychains'
 alias c='cd'
-alias n='nvim'
 alias u='sudo'
 alias m='make'
 alias cg='cargo'
 alias cm='cmake'
 alias o='code .'
-alias l='lvim'
 alias py='python -m colored_traceback'
-
+alias cn='code --new-window'
 #set bash vi mode
 # set -o vi
 
@@ -198,7 +196,7 @@ export PATH="$PATH:/home/ffmeng/intelFPGA/20.1/modelsim_ase/bin"
 # for ccache 
 export PATH="/usr/lib/ccache:$PATH"
 # for go
-export PATH="$PATH:/home/ffmeng/go/bin/"
+export PATH="$PATH:/usr/local/go/bin"
 
 # for java
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
@@ -209,13 +207,15 @@ export JAVA_OPTS="$JAVA_OPTS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=7890"
 # for neovim
 export PATH="$PATH:$HOME/neovim/bin"
 
+# for goland
+export PATH="$PATH:$HOME/GoLand-2023.2.4/bin"
+
 # for flatpak
 # export PATH="$PATH:$XDG_DATA_DIRS"
 
 # proxy for rustup
 alias rsp="export https_proxy='127.0.0.1:7890'; export http_proxy='127.0.0.1:7890'"
-# proxy for go get
-alias gop="export https_proxy='socks5://127.0.0.1:7890'; export http_proxy='socks5://127.0.0.1:7890'"
+alias gop="export https_proxy='https://127.0.0.1:7890'; export http_proxy='http://127.0.0.1:7890'"
 
 # # >>> conda initialize >>>
 # # !! Contents within this block are managed by 'conda init' !!

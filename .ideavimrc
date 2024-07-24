@@ -73,6 +73,7 @@ map <Space>r <Action>(RenameElement)
 map <Space>d <Action>(SelectInProjectView)
 
 map <Space>o <Action>(FileStructurePopup)
+map <Space>t <Action>(FileStructurePopup)
 map <Space>p <Action>(ParameterInfo)
 map <Space>f <Action>(GotoSymbol)
 map <Space>e <Action>(ShowUsages)
