@@ -1,5 +1,6 @@
 {
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
+    "window.zoomLevel": 1.4,
     "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -277,7 +278,6 @@
     "workbench.editorAssociations": {
         "*.img": "hexEditor.hexedit"
     },
-    "window.zoomLevel": 1,
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },

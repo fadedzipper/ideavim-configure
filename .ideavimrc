@@ -65,7 +65,6 @@ map <leader>c <Action>(Stop)
 map <leader>z <Action>(ToggleDistractionFreeMode)
 map <leader>q <Action>(HideActiveWindow)
 
-map <leader>j <C-;>
 map <leader>w <leader><leader>w
 map <leader>b <leader><leader>b
 
@@ -77,3 +76,5 @@ map <Space>t <Action>(FileStructurePopup)
 map <Space>p <Action>(ParameterInfo)
 map <Space>f <Action>(GotoSymbol)
 map <Space>e <Action>(ShowUsages)
+
+map F <Action>(AceAction)
