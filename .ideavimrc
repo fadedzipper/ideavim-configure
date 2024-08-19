@@ -21,25 +21,12 @@ nnoremap H ^
 nnoremap L $
 nnoremap R gt
 nnoremap E gT
-nnoremap gh <C-q>
 
 " Redo
 nnoremap U <C-r>
 
 " Yank to the end of line
 nnoremap Y y$
-
-" Window operation
-nnoremap <Space>ww <C-W>w
-nnoremap <Space>wd <C-W>c
-nnoremap <Space>wj <C-W>j
-nnoremap <Space>wk <C-W>k
-nnoremap <Space>wh <C-W>h
-nnoremap <Space>wl <C-W>l
-nnoremap <Space>ws <C-W>s
-nnoremap <Space>w- <C-W>s
-nnoremap <Space>wv <C-W>v
-nnoremap <Space>w\| <C-W>v
 
 " format
 nnoremap <Space>i :action ReformatCode<CR>
@@ -71,7 +58,6 @@ map <leader>b <leader><leader>b
 map <Space>r <Action>(RenameElement)
 map <Space>d <Action>(SelectInProjectView)
 
-map <Space>o <Action>(FileStructurePopup)
 map <Space>t <Action>(FileStructurePopup)
 map <Space>p <Action>(ParameterInfo)
 map <Space>f <Action>(GotoSymbol)
